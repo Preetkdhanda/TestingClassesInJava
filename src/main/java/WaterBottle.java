@@ -6,6 +6,9 @@ public WaterBottle(int volume){
     this.volume = 100;
 }
 
+public int getVolume(){
+    return volume;
+}
 public int takeDrink(){
     return (this.volume - 10);
 

@@ -1,8 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
-
 
 public class PrinterTest {
 
@@ -13,10 +11,6 @@ public class PrinterTest {
         printer = new Printer(100,100);
 
 }
-
-
-
-
 
     @Test
    public void copySheet() {
